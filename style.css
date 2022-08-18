@@ -612,7 +612,7 @@ h2 {
 }
 
 .feature_cloud2 {
-  width: 450px;
+  width: 32%;
   height: auto;
 }
 
@@ -621,7 +621,7 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 5vh;
 
   width: 100%;
   height: 360vh;
@@ -642,7 +642,7 @@ h2 {
 }
 
 .red.feature1 {
-  width: 650px;
+  width: 40vw;
   height: auto;
 }
 
@@ -650,7 +650,7 @@ h2 {
   position: absolute;
   top: 20%;
   right: 10%;
-  width: 480px;
+  width: 33vw;
   height: 60vh;
 }
 
@@ -707,13 +707,13 @@ h2 {
 }
 
 .red.feature2 {
-  width: 550px;
+  width: 40vw;
   height: auto;
 }
 
 .iphone13_2 {
-  width: 220px;
-  height: auto;
+  width: auto;
+  height: 55vh;
 }
 
 .footprints2 {
@@ -769,7 +769,7 @@ h2 {
 }
 
 .red.feature3 {
-  width: 600px;
+  width: 40vw;
   height: auto;
 }
 
@@ -844,7 +844,7 @@ h2 {
 }
 
 .red.feature4 {
-  width: 580px;
+  width: 40vw;
   height: auto;
 }
 
@@ -897,37 +897,37 @@ h2 {
   left: 65%;
 }
 
-    /* ここから */
+/* ここから */
 .fadeIn {
     transition: 1s ease;
     opacity: 0;
 }
-    
+
 .fadeIn.active {
     opacity: 1;
 }
 /* (4)ここまで */
 
 
-
 /* (5)ここから */
 .section.install {
   scroll-margin-top: var(--header-height);
   width: 100%;
-  height: 85vh;
+  min-height: 85vh;
   background-color: #fffdea;
 
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 
 .download {
-  width: 1200px;
+  width: 85vw;
   height: auto;
+  max-width: 1500px;
 
-  position: absolute;
-  top: 8%;
-  left: 50%;
-  transform: translateX(-50%);
 }
 /* (5)ここまで */
 
