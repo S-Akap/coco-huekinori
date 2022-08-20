@@ -496,25 +496,19 @@ body {
   position: absolute;
   z-index: 30;
   top: 53%;
-  left: 38%;
-  transform: translateX(-50%);
+
+  animation: about_logo_anime 3s infinite ease-in-out .8s alternate;
 }
 
-.about_logo {
-  animation: about_logo 3s infinite ease-in-out .8s alternate;
-  display: inline-block;
-  transition: 1.0s ease-in-out;
-}
-
-@keyframes about_logo {
+@keyframes about_logo_anime {
   0% {
-    transform:translate(0, 0) rotate(-3deg);
+    transform:rotateZ(-3deg);
   }
   50% {
-    transform:translate(0, -3px) rotate(0deg);
+    transform:rotateZ(0deg);
   }
   100% {
-    transform:translate(0, 0) rotate(3deg);
+    transform:rotateZ(3deg);
   }
 }
 
